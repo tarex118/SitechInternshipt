@@ -1,0 +1,29 @@
+server {
+    listen 80;
+    server_name localhost;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name localhost;
+
+    ssl_certificate /home/ubuntu/sslkeys/public.crt;
+    ssl_certificate_key /home/ubuntu/sslkeys/private.key;
+    	 
+
+    location / {
+        proxy_pass http://10.32.161.107:9090;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    #    proxy_set_header X-Forwarded-Proto $scheme;
+ 	add_header Z-Abuqasim MEOW;
+
+	add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0";
+	add_header Pragma "no-cache";
+	add_header Expires "Wed, 11 Jan 1984 05:00:00 GMT";
+	add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload";
+    }
+}
+
