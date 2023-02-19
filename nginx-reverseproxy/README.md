@@ -10,6 +10,7 @@ FROM node:16-alpine@sha256:25828d5c4ae9824273db9ca2e923da2d29bbae78f534e979f09eb
 ```yaml
 RUN adduser --system --no-create-home tareq
 ```
+------------------------------------------------------------------------------------------------------------------------------
 ## Nginx Reverse-Proxy
  ![Nginx](./images/nginx-config.png)
  - added redirection to HTTPS 
@@ -54,7 +55,7 @@ add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate,
 ```yaml
         add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload";
 ```
-
+------------------------------------------------------------------------------------------------------------------------------
 ## Results
 - Screenshot of the browser showing the headers
 
