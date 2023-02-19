@@ -62,5 +62,14 @@ add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate,
 ![browser](./images/SSntwrktab.png)
 
 
-- curl command
+- curl command showing all the headers mentiond No-cache https strict policy , and the custom added header Zabuqasim:meow
 ![curl](./Gif/index.gif)
+
+- Docker run Command with the host name ports and all 
+ ![docker](./Gif/dockerun.gif)
+ 
+- to show that the user running is not the root user.
+![user](./Gif/user.gif)
+
+- and finally gixy to check the configs and the vulnerabilities
+![gixy](./Gif/gixy.gif)
