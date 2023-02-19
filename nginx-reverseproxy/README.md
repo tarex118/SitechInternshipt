@@ -1,2 +1,2 @@
-### Nginx Reverse proxy 
--Added a reverse proxy
+##### Nginx Reverse proxy 
+- Added a reverse proxy
