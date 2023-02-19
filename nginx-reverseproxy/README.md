@@ -54,3 +54,13 @@ add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate,
 ```yaml
         add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload";
 ```
+
+## Results
+- Screenshot of the browser showing the headers
+![browser](./images/SSntwrktab.png)
+
+- A working helloworld nodejs website
+![hello](./images/hello-world.png)
+
+- curl command
+![curl](./Gif/index.gif)
