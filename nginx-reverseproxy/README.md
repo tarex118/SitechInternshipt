@@ -6,8 +6,11 @@
 - Redirect http to HTTPS
 - Disable cache
 - Allow HTTPS-strict-protocol
-##Preview:
+------------------------------------------------------------------------------------------------------------------------------
+
+## Preview:
 - curl command showing all the headers mentiond No-cache https strict policy , and the custom added header Zabuqasim:meow
+
 ![curl](./Gif/index.gif)
 
 - Screenshot of the browser showing the headers
