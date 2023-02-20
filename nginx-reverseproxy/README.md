@@ -84,5 +84,5 @@ add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate,
 - to show that the user running is not the root user.
 ![user](./Gif/user.gif)
 
-- and finally gixy to check the configs and the vulnerabilities
+- and finally gixy to check the configs and misconfigs
 ![gixy](./Gif/gixy.gif)
