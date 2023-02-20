@@ -8,7 +8,7 @@ FROM node:16-alpine@sha256:25828d5c4ae9824273db9ca2e923da2d29bbae78f534e979f09eb
 ```
 - Ran the adduser with the flags to give the user no privilages. so the container has no default root access.
 ```yaml
-RUN adduser --system --no-create-home tareq
+RUN useradd -r -s /bin/false tareq
 ```
 ------------------------------------------------------------------------------------------------------------------------------
 ## Nginx Reverse-Proxy
