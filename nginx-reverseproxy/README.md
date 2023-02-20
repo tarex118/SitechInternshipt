@@ -1,4 +1,18 @@
 # Nginx Reverse proxy 
+
+## Requirments
+- build a docker image that has a nodeJs Helloworld website
+- Allow only HTTPS
+- Redirect http to HTTPS
+- Disable cache
+- Allow HTTPS-strict-protocol
+##Preview:
+- curl command showing all the headers mentiond No-cache https strict policy , and the custom added header Zabuqasim:meow
+![curl](./Gif/index.gif)
+
+- Screenshot of the browser showing the headers
+![browser](./images/SSntwrktab.png)
+
 Here we have a Dockerfile that builds a simple "hello-world" node.js App. and the config for Nginx reverse proxy.
 ## Dockerfile
  ![DockerFile](./images/dockerfile.png)
@@ -57,14 +71,6 @@ add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate,
 ```
 ------------------------------------------------------------------------------------------------------------------------------
 ## Results
-- Screenshot of the browser showing the headers
-
-
-![browser](./images/SSntwrktab.png)
-
-
-- curl command showing all the headers mentiond No-cache https strict policy , and the custom added header Zabuqasim:meow
-![curl](./Gif/index.gif)
 
 - Docker run Command with the host name ports and all 
  ![docker](./Gif/dockerun.gif)
