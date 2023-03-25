@@ -1,0 +1,10 @@
+{"version": 2, "width": 135, "height": 36, "timestamp": 1676843682, "env": {"SHELL": "/bin/bash", "TERM": "xterm-256color"}}
+[0.079733, "o", "\u001b[?2004h\u001b]0;ubuntu@consistent-ape: ~\u0007\u001b[01;32mubuntu@consistent-ape\u001b[00m:\u001b[01;34m~\u001b[00m$ "]
+[1.328024, "o", "g"]
+[1.49123, "o", "i"]
+[1.617633, "o", "x"]
+[1.803092, "o", "y"]
+[2.079354, "o", "\r\n\u001b[?2004l\r"]
+[2.724132, "o", "\r\n\u001b[95m==================== Results ===================\u001b[0m\r\nNo issues found.\r\n\r\n\u001b[95m==================== Summary ===================\u001b[0m\r\nTotal issues:\r\n    Unspecified: 0\r\n    Low: 0\r\n    Medium: 0\r\n    High: 0\r\n\r\n"]
+[2.79545, "o", "\u001b[?2004h\u001b]0;ubuntu@consistent-ape: ~\u0007\u001b[01;32mubuntu@consistent-ape\u001b[00m:\u001b[01;34m~\u001b[00m$ "]
+[4.279339, "o", "\u001b[?2004l\r\r\nexit\r\n"]
