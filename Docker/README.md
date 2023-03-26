@@ -140,11 +140,7 @@ python manage.py createsuperuser
  docker run --network django-env -d --env-file env -p 80:8000 django-polls:v0
 
 ```
-## Results
-### Create a postgres database in a container
-![alt text](images/postgres.png)
-
-### Create an image to house the django application
+## Webpage SS
 ![django1](images/django1.png)
 ![django2](images/django2.png)
 ![django3](images/django3.png)
